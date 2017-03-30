@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        sh 'npm start'
+        echo 'test'
       }
     }
   }
