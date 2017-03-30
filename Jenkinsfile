@@ -1,10 +1,13 @@
 pipeline {
-  agent any
+  agent none
   stages {
     stage('') {
       steps {
-        echo 'test'
+        sh 'npm start'
       }
     }
+  }
+  environment {
+    tt = 'tt'
   }
 }
